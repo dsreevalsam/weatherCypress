@@ -1,0 +1,15 @@
+{
+  "name": "safetyio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "npx cypress run --browser chrome --headed",
+    "test:firefox": "npx cypress run --browser firefox"
+  },
+  "author": "DeepakS",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.3.1"
+  }
+}
